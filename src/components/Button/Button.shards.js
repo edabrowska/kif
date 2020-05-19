@@ -17,6 +17,10 @@ export const ButtonRoot = styled.button`
     background: ${({ theme }) => theme.colors.buttonDisabled.background};
     cursor: default;
   }
+
+  @media (min-width: 992px) {
+    font-size: 1.6rem;
+  }
 `
 
 export const CloseButtonRoot = styled.button`

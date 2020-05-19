@@ -10,6 +10,7 @@ const _bittersweet = '#FF7165'
 export const background = {
   primary: _white,
   overlay: _tuna,
+  accent: _bittersweet,
 }
 
 export const text = {

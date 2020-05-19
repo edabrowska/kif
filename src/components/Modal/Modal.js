@@ -1,28 +1,60 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import {
   ModalOverlay,
-  ModalRoot
+  ModalRoot,
+  ImgWrapper,
+  Title,
+  Description,
+  Note,
+  Marked
 } from './Modal.shards'
 
-import { CloseButton, Button } from '../Button/Button'
+import { CloseButton } from '../Button/Button'
+import CodeInput from '../CodeInput/CodeInput'
+import lock from '../../images/lock.png'
 
-const Modal = ({ modalActive, setModalActive }) => {
+const Modal = ({ setModalActive }) => {
+  const [active, setActive] = useState(false)
+  const [inputVal, setInputVal] = useState('')
+  const [error, setError] = useState(false)
+
   const closeModal = () => setModalActive(false)
-  const handleConfirm = () => console.log('confirmed')
+
+  const handleChange = value => {
+    setActive(true)
+    setInputVal(value)
+    setError(false)
+  }
+
+  const handleConfirm = () => {
+    if (inputVal.length === 4) {
+      alert('Twój kod: 1234')
+    } else {
+      setActive(false)
+      setError(true)
+    }
+  }
 
   return (
     <ModalOverlay>
       <ModalRoot>
+        <ImgWrapper>
+          <img src={lock} alt='lock' />
+        </ImgWrapper>
         <CloseButton handleClick={closeModal} />
-        <h4>Podaj kod PIN</h4>
-        <p>Na podany numer telefonu wysłaliśmy SMS z kodem PIN</p>
-        <Button
-          handleClick={handleConfirm}
-          text='Potwierdź'
-          active={false}
+        <Title>Podaj kod PIN</Title>
+        <Description>Na podany numer telefonu wysłaliśmy SMS z kodem PIN</Description>
+        <CodeInput
+          handleChange={handleChange}
+          error={error}
+          handleConfirm={handleConfirm}
+          active={active && inputVal}
         />
-        <p>Nie otrzymałeś kodu? <span>Wyślij ponownie</span></p>
+        <Note>
+          Nie otrzymałeś kodu?
+          <Marked onClick={handleConfirm}>Wyślij ponownie</Marked>
+        </Note>
       </ModalRoot>
     </ModalOverlay>
   )
