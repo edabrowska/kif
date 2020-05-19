@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders buttons Snapshot 1`] = `
+.emotion-0 {
+  border-radius: 4px;
+  background-color: #FF7165;
+  color: #FFF;
+  padding: 16px 36px;
+  outline: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.emotion-0:disabled {
+  color: #211965;
+  background: rgba(141,142,161,0.1);
+  cursor: default;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    font-size: 1.6rem;
+  }
+}
+
+<button
+  className="emotion-0"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  button
+</button>
+`;
+
+exports[`renders buttons Snapshot2 1`] = `
+.emotion-0 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 10px;
+  border: 1px solid #DBDCEE;
+  background: transparent;
+  color: #30313D;
+  padding: 10.5px 16.6px;
+  font-size: 2.2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+<button
+  className="emotion-0"
+  onClick={[Function]}
+  type="button"
+>
+  ×
+</button>
+`;

@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CodeInput Snapshot 1`] = `
+.emotion-1 {
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 40px auto 20px;
+  max-width: 290px;
+}
+
+.emotion-0 {
+  border-radius: 4px;
+  background-color: #FF7165;
+  color: #FFF;
+  padding: 16px 36px;
+  outline: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.emotion-0:disabled {
+  color: #211965;
+  background: rgba(141,142,161,0.1);
+  cursor: default;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    font-size: 1.6rem;
+  }
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="pincode-input-container"
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-evenly",
+        "marginBottom": "40px",
+      }
+    }
+  >
+    <input
+      aria-label=""
+      autoComplete="off"
+      className="pincode-input-text"
+      maxLength="1"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      pattern="[0-9]*"
+      placeholder=""
+      style={
+        Object {
+          "alignItems": "center",
+          "background": "transparent",
+          "border": "1px solid #DBDCEE",
+          "borderRadius": "10px",
+          "display": "flex",
+          "height": "68px",
+          "justifyContent": "center",
+          "margin": "0 2px",
+          "padding": "22px 18px",
+          "textAlign": "center",
+          "width": "50px",
+        }
+      }
+      type="tel"
+      value=""
+    />
+    <input
+      aria-label=""
+      autoComplete="off"
+      className="pincode-input-text"
+      maxLength="1"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      pattern="[0-9]*"
+      placeholder=""
+      style={
+        Object {
+          "alignItems": "center",
+          "background": "transparent",
+          "border": "1px solid #DBDCEE",
+          "borderRadius": "10px",
+          "display": "flex",
+          "height": "68px",
+          "justifyContent": "center",
+          "margin": "0 2px",
+          "padding": "22px 18px",
+          "textAlign": "center",
+          "width": "50px",
+        }
+      }
+      type="tel"
+      value=""
+    />
+    <input
+      aria-label=""
+      autoComplete="off"
+      className="pincode-input-text"
+      maxLength="1"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      pattern="[0-9]*"
+      placeholder=""
+      style={
+        Object {
+          "alignItems": "center",
+          "background": "transparent",
+          "border": "1px solid #DBDCEE",
+          "borderRadius": "10px",
+          "display": "flex",
+          "height": "68px",
+          "justifyContent": "center",
+          "margin": "0 2px",
+          "padding": "22px 18px",
+          "textAlign": "center",
+          "width": "50px",
+        }
+      }
+      type="tel"
+      value=""
+    />
+    <input
+      aria-label=""
+      autoComplete="off"
+      className="pincode-input-text"
+      maxLength="1"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      pattern="[0-9]*"
+      placeholder=""
+      style={
+        Object {
+          "alignItems": "center",
+          "background": "transparent",
+          "border": "1px solid #DBDCEE",
+          "borderRadius": "10px",
+          "display": "flex",
+          "height": "68px",
+          "justifyContent": "center",
+          "margin": "0 2px",
+          "padding": "22px 18px",
+          "textAlign": "center",
+          "width": "50px",
+        }
+      }
+      type="tel"
+      value=""
+    />
+  </div>
+  <button
+    className="emotion-0"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Potwierdź
+  </button>
+</div>
+`;

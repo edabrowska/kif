@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App Snapshot 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  background: #FFF;
+}
+
+.emotion-0 {
+  border-radius: 4px;
+  background-color: #FF7165;
+  color: #FFF;
+  padding: 16px 36px;
+  outline: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.emotion-0:disabled {
+  color: #211965;
+  background: rgba(141,142,161,0.1);
+  cursor: default;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    font-size: 1.6rem;
+  }
+}
+
+<main
+  className="emotion-1"
+>
+  <button
+    className="emotion-0"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    open modal
+  </button>
+</main>
+`;

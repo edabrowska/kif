@@ -11,11 +11,13 @@
     "emotion": "^10.0.27",
     "emotion-normalize": "^10.1.0",
     "emotion-theming": "^10.0.27",
+    "jest-emotion": "^10.0.32",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-input-mask": "^3.0.0-alpha.2",
     "react-pin-input": "^0.9.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",

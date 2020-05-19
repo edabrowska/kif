@@ -16,7 +16,6 @@ const CodeInput = ({
       length={4}
       initialValue=''
       type='numeric'
-      focus
       onChange={handleChange}
       style={{
         display: 'flex',
