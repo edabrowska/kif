@@ -53,7 +53,7 @@ const Modal = ({ setModalActive }) => {
         />
         <Note>
           Nie otrzymałeś kodu?
-          <Marked onClick={handleConfirm}>Wyślij ponownie</Marked>
+          <Marked onClick={handleConfirm}> Wyślij ponownie</Marked>
         </Note>
       </ModalRoot>
     </ModalOverlay>
