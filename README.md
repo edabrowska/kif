@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+###  yarn global add serve
+###  serve -s build
+To run built app with static server
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
